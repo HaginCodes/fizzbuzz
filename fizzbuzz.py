@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Hagin
-Credit: Morgan
+Credit: None
 
 Assignment:
 
@@ -53,7 +53,7 @@ PrintNumber = 1
 
 while PrintNumber <= Number: 
     if PrintNumber%Fizz == 0 and PrintNumber == 0:
-        print("Fizz Buzz")
+        print("FizzBuzz")
     elif PrintNumber%Fizz == 0:
             print("Fizz")
     elif PrintNumber%Fizz == 0:
