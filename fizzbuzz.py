@@ -49,16 +49,18 @@ Number = int(input("How many numbers shall we print? " ))
 Fizz = int(input("for multiples of what number shall we print 'Fizz' ? "))
 Buzz = int(input("For multiples of what number shall we print 'Buzz' ? "))
 
-PrintNumber = 1'
+PrintNumber = 1
 
 while PrintNumber <= Number: 
     if PrintNumber%Fizz == 0 and PrintNumber == 0:
-        print("Fizz")
-        elif PrintNumber%%Fizz == 0:
+        print("Fizz Buzz")
+    elif PrintNumber%Fizz == 0:
             print("Fizz")
-        elif PrintNumber%Fizz == 0:
-            print("Fizz") 
-            
+    elif PrintNumber%Fizz == 0:
+            print("Buzz") 
+    else:
+            print(PrintNumber)
+    PrintNumber ++
 
 
 
