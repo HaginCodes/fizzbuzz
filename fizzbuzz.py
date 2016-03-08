@@ -60,7 +60,7 @@ while PrintNumber <= Number:
             print("Buzz") 
     else:
             print(PrintNumber)
-    PrintNumber ++
+    PrintNumber = PrintNumber+1
 
 
 
