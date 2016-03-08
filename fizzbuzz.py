@@ -52,15 +52,12 @@ Buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 PrintNumber = 1
 
 while PrintNumber <= Number: 
-    if PrintNumber%Fizz == 0 and PrintNumber == 0:
+    if PrintNumber%Fizz == 0 and PrintNumber%Buzz == 0:
         print("FizzBuzz")
     elif PrintNumber%Fizz == 0:
             print("Fizz")
-    elif PrintNumber%Fizz == 0:
+    elif PrintNumber%Buzz == 0:
             print("Buzz") 
     else:
-            print(PrintNumber)
+        print(PrintNumber)
     PrintNumber = PrintNumber+1
-
-
-
