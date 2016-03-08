@@ -46,8 +46,8 @@ Buzz
 """ 
 
 Number = int(input("How many numbers shall we print? " ))
-Fizz = int(input("for multiples of what number shall we print 'Fizz' ? "))
-Buzz = int(input("For multiples of what number shall we print 'Buzz' ? "))
+Fizz = int(input("for multiples of what number shall we print 'Fizz'? "))
+Buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 PrintNumber = 1
 
